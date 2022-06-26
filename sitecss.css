@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    max-width: 960px;
+    background-color: #85BB65;
+
+}
+
+header {
+    margin:15px 0 15px;
+}
+
+h1 {
+    color: #85bb65;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    text-shadow: 2px 1px #888;
+    box-shadow: 5px 10px #118c4f50;
+}
+
+.p1{ /* this is changing the first paragraph under the header*/
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 5px 10px #118c4f50;
+
+    
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: #85BB65;
+}
