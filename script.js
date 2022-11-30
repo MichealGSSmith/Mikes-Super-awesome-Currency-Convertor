@@ -9,12 +9,12 @@ convert.addEventListener("click", function() {
     let toCurrency = wantedCurrency.value;
     let amt = amount.value;
 
-    fetch(`https://v6.exchangerate-api.com/v6/b9290a5c87aaef275a558257/latest/${fromCurrency}`)
+    fetch(`https://api.exchangerate-api.com/v6/b9290a5c87aaef275a558257/latest/${fromCurrency}`)
     .then(response => {
         return response.json();
     })
     .then(data => {
-        let rate= data.rates[toCurrency];
+        let rate = data.rates[toCurrency];
         let total = rate * amt;
         result.innerHTML = `${amt} ${fromCurrency} = ${total} ${toCurrency}`;
     });
