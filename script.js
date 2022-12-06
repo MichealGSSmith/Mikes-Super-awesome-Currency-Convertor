@@ -9,7 +9,7 @@ convert.addEventListener("click", function() {
     let toCurrency = wantedCurrency.value;
     let amt = amount.value;
 
-    fetch(`https://v6.exchangerate-api.com/v6/b9290a5c87aaef275a558257/latest/${fromCurrency}`)
+    fetch(`http://v6.exchangerate-api.com/v6/b9290a5c87aaef275a558257/latest/${fromCurrency}`)
     .then(response => {
         return response.json();
     })
